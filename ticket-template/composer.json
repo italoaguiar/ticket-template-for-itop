@@ -1,0 +1,16 @@
+{
+  "config": {
+    "classmap-authoritative": true
+  },
+  "autoload": {
+    "psr-4": {
+      "HomeUser\\iTop\\Extension\\": "src"
+    }
+  },
+  "name": "homeuser/ticket-template",
+  "type": "itop-extension",
+  "description": "Ticket Template",
+  "require": {
+    "composer-runtime-api": "^2.0"
+  }
+}
